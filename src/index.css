@@ -1,0 +1,150 @@
+.main-container {
+  background-color: darkblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.box {
+  width: 940px;
+  height: 870px;
+  border: 2px solid greenyellow;
+  border-radius: 8px;
+  background-color: darkblue;
+  position: relative;
+}
+
+.title {
+  color: greenyellow;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: greenyellow;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.color-box {
+  width: 160px;
+  height: 110px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.color-square {
+  width: 64px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.white {
+  border: 8px solid white;
+  background-color: white;
+}
+
+.orange {
+  border: 8px solid orange;
+  background-color: orange;
+}
+
+.skyblue {
+  border: 8px solid skyblue;
+  background-color: skyblue;
+}
+
+.price {
+  color: darkgreen;
+  margin-top: 5px;
+}
+
+.name {
+  color: darkgreen;
+}
+
+.small-box {
+  width: 160px;
+  height: 60px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.large-box {
+  width: 160px;
+  height: 190px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.features {
+  color: darkgreen;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.total-box {
+  width: 300px;
+  height: 240px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  background-color: darkgreen;
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  padding: 15px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  color: greenyellow;
+  margin-top: 10px;
+}
+
+.total-row:first-child {
+  margin-top: 0;
+}
+
+.total-value {
+  color: white;
+}
+
+.divider {
+  border: 1px solid greenyellow;
+  margin: 15px 0;
+}
+
+.total-row:last-child {
+  font-family: "Roboto Mono", monospace;
+}
