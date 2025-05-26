@@ -147,3 +147,44 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+// this is the second logic what i made ans this is the logic for the indivuudal function for me...............
+
+
+//   const calculateTotal = () => {
+//     const basePrice = 1000;
+//     const newTotal = basePrice + colorPrice + powerPrice + warpPrice + packPrice;
+//     setTotal(newTotal);
+//   };
+
+//   const pickColor = (newColor, price) => {
+//     setColor(newColor);
+//     setColorPrice(price);
+//     calculateTotal(); 
+//   };
+
+//   const pickPower = (newPower, price) => {
+//     setPower(newPower);
+//     setPowerPrice(price);
+//     calculateTotal();
+//   };
+
+//   const pickWarp = (newWarp, price) => {
+//     setWarp(newWarp);
+//     setWarpPrice(price);
+//     calculateTotal();
+//   };
+
+//   const pickPack = (newPack, price) => {
+//     setPack(newPack);
+//     setPackPrice(price);
+//     calculateTotal();
+//   };
+
+
+
