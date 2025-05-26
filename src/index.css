@@ -1,5 +1,5 @@
 .main-container {
-  background-color: darkblue;
+  background-color: #051544;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@
   height: 870px;
   border: 2px solid greenyellow;
   border-radius: 8px;
-  background-color: darkblue;
+  background-color: #051544;
   position: relative;
 }
 
@@ -147,4 +147,10 @@
 
 .total-row:last-child {
   font-family: "Roboto Mono", monospace;
+}
+
+
+.selected {
+  border: 2px solid greenyellow;
+  
 }
